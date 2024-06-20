@@ -1,1 +1,50 @@
+//bool
+var checkIn = true;
+var checkOut = false;
+console.log(checkIn);
+console.log(checkOut);
 
+var bigger = 100 > 50;
+console.log(bigger);
+bigger = 100 < 50;
+console.log(bigger);
+
+//int
+var kuk = 95;
+var eng = 85;
+var math = 52;
+var total = kuk + eng + math;
+var avg = total / 3;
+console.log(total);
+console.log(avg);
+
+var nan = '난'/10;
+console.log(nan);
+
+//name
+// var 5brother;
+// var your name;
+// var case;
+var myName;
+var myname;
+
+//str
+var lang = 'javascript';
+var love = '사랑하';
+var you = null;
+var num = 5;
+console.log(lang + null + love + num)
+
+var msg = "JavaScript is the world's most popular programming language.";
+console.log(msg.length);
+
+var msg1 = 'She said "Good bye"';
+var msg2 = "She's gone";
+
+console.log(msg1);
+console.log(msg2);
+
+//variable
+var msg = 'Hello';
+msg = 'World';
+console.log(msg); // World
